@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yb0fmx9LUf3v8vWTzLhhhLRn7NUYC4eQ36Jom2XBAGU59VIt5aFDIRTOuX4eQ86qHlo6bhPg8p9jYu3iwDzfiA==",
+  "success": true,
+  "projectFilePath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\OrderService\\OrderService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\royal\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}
