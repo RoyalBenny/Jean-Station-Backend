@@ -9,6 +9,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DAL;
+using Microsoft.EntityFrameworkCore;
 
 namespace UserService
 {
@@ -24,6 +26,13 @@ namespace UserService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<JeanStationDbContext>(option =>
+            {
+                option.UseSqlServer("data source=localhost;Initial Catalog=JeanStation;Integrated Security=True", b => b.MigrationsAssembly("UserService"));
+
+            });
+
+
             services.AddControllers();
         }
 
