@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{20C5CB3E-5FCC-4925-8442-6AC8FAC3CBEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserService", "UserService\UserService.csproj", "{20C5CB3E-5FCC-4925-8442-6AC8FAC3CBEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{12E98865-A09E-423B-AED4-1DBBC72D579C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService", "OrderService\OrderService.csproj", "{12E98865-A09E-423B-AED4-1DBBC72D579C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartService", "CartService\CartService.csproj", "{7EC268E0-48F9-4524-BA01-D714CBC73D77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartService", "CartService\CartService.csproj", "{7EC268E0-48F9-4524-BA01-D714CBC73D77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{54DE98F0-D3BC-4F3B-8D94-64BC0BD04DA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService", "ProductService\ProductService.csproj", "{54DE98F0-D3BC-4F3B-8D94-64BC0BD04DA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfferService", "OfferService\OfferService.csproj", "{2564BC73-D13A-45A2-BBEA-082119FA03F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfferService", "OfferService\OfferService.csproj", "{2564BC73-D13A-45A2-BBEA-082119FA03F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeanStationModels", "JeanStationModels\JeanStationModels.csproj", "{2209C90F-C8B0-4A2D-9A32-662E95C17119}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{2564BC73-D13A-45A2-BBEA-082119FA03F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2564BC73-D13A-45A2-BBEA-082119FA03F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2564BC73-D13A-45A2-BBEA-082119FA03F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2209C90F-C8B0-4A2D-9A32-662E95C17119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2209C90F-C8B0-4A2D-9A32-662E95C17119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2209C90F-C8B0-4A2D-9A32-662E95C17119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2209C90F-C8B0-4A2D-9A32-662E95C17119}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
