@@ -29,6 +29,10 @@ namespace DAL
             return _context.Orders.ToList();
         }
 
+        public List<Order> GetOrdersByUserId(string userId)
+        {
+            return _context.Orders.Where( o=> o.UserId == userId).ToList(); 
+        }
         public Order GetOrder(string id)
         {
             return _context.Orders.FirstOrDefault(o => o.Id == id);
