@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductService", "ProductSe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfferService", "OfferService\OfferService.csproj", "{2564BC73-D13A-45A2-BBEA-082119FA03F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JeanStationModels", "JeanStationModels\JeanStationModels.csproj", "{2209C90F-C8B0-4A2D-9A32-662E95C17119}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JeanStationModels", "JeanStationModels\JeanStationModels.csproj", "{2209C90F-C8B0-4A2D-9A32-662E95C17119}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{EFFBD39C-1B4F-4B1A-B772-DD4A1976A713}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{17C1C57C-AD6E-4CC1-A899-CC0D5A440573}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +49,16 @@ Global
 		{2209C90F-C8B0-4A2D-9A32-662E95C17119}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2209C90F-C8B0-4A2D-9A32-662E95C17119}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2209C90F-C8B0-4A2D-9A32-662E95C17119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C1C57C-AD6E-4CC1-A899-CC0D5A440573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C1C57C-AD6E-4CC1-A899-CC0D5A440573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C1C57C-AD6E-4CC1-A899-CC0D5A440573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C1C57C-AD6E-4CC1-A899-CC0D5A440573}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17C1C57C-AD6E-4CC1-A899-CC0D5A440573} = {EFFBD39C-1B4F-4B1A-B772-DD4A1976A713}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F9FB0349-D07B-4226-ACDE-BE2F9F161045}
