@@ -134,3 +134,6 @@ E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netc
 E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\DAL.dll
 E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\DAL.pdb
 >>>>>>> c215371600b89c1a12b8eb4e11ab21f90b66fc14
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Services.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Services.pdb
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\UserService.csproj.CopyComplete

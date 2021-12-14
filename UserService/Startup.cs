@@ -11,8 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DAL;
-using Microsoft.EntityFrameworkCore;
+
+using Services;
 
 namespace UserService
 {
@@ -31,6 +31,8 @@ namespace UserService
             services.AddDbContext<JeanStationDbContext>(option =>{
                 option.UseSqlServer(Configuration.GetConnectionString("sqlstring"), b => b.MigrationsAssembly("UserService"));
             });
+            services.AddScoped<IUserService, UserServices>();
+            services.AddScoped<IUserRepository, UserRepository>();
             services.AddControllers();
         }
 

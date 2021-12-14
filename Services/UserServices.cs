@@ -6,10 +6,10 @@ using JeanStationModels;
 
 namespace Services
 {
-    public class UserService:IUserService
+    public class UserServices:IUserService
     {
         private readonly IUserRepository _repo;
-        public UserService(IUserRepository repo)
+        public UserServices(IUserRepository repo)
         {
             _repo = repo;
         }

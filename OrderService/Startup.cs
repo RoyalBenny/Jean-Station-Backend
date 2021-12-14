@@ -1,10 +1,13 @@
+using DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +27,11 @@ namespace OrderService
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<JeanStationDbContext>(option => {
+                option.UseSqlServer(Configuration.GetConnectionString("sqlstring"), b => b.MigrationsAssembly("UserService"));
+            });
+            services.AddScoped<IOrderService, OrderServices>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddControllers();
         }
 

@@ -6,13 +6,25 @@ using System.Text;
 
 namespace Services
 {
-    public class CartService : ICartService
+    public class CartServices : ICartService
     {
         private readonly ICartRepository _repo;
 
-        public CartService(ICartRepository repo)
+        public CartServices(ICartRepository repo)
         {
             _repo = repo;
+        }
+
+        public Cart AddCart(Cart cart)
+        {
+            try
+            {
+                return _repo.AddCart(cart);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
         public bool DeleteCart(string id)
         {

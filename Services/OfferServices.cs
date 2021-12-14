@@ -6,10 +6,10 @@ using DAL;
 
 namespace Services
 {
-    public class OfferService : IOfferService
+    public class OfferServices : IOfferService
     {
         private readonly IOfferRepository _repo;
-        public OfferService(IOfferRepository repo)
+        public OfferServices(IOfferRepository repo)
         {
             _repo = repo;
         }

@@ -6,10 +6,10 @@ using JeanStationModels;
 
 namespace Services
 {
-    public class OrderService : IOrderService
+    public class OrderServices : IOrderService
     {
         private readonly IOrderRepository _repo;
-        public OrderService(IOrderRepository repo)
+        public OrderServices(IOrderRepository repo)
         {
             _repo = repo;
         }

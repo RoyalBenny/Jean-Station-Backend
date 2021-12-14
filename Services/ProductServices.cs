@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 namespace Services
 {
-    public class ProductService : IProductService
+    public class ProductServices : IProductService
     {
         private readonly IProductRepository _repo;
-        public ProductService(IProductRepository repo)
+        public ProductServices(IProductRepository repo)
         {
             _repo = repo;
         }

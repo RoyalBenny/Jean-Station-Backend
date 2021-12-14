@@ -14,6 +14,13 @@ namespace DAL
         {
             _context = con;
         }
+        public Cart AddCart(Cart cart)
+        {
+            _context.Carts.Add(cart);
+            _context.SaveChanges();
+            return cart;
+
+        }
         public List<Cart> GetAllCarts()
         {
             return _context.Carts.ToList();
