@@ -17,6 +17,7 @@ D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\obj\Debug\n
 D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\obj\Debug\netcoreapp3.1\UserService.dll
 D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\obj\Debug\netcoreapp3.1\UserService.pdb
 D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\obj\Debug\netcoreapp3.1\UserService.genruntimeconfig.cache
+<<<<<<< HEAD
 D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -64,3 +65,72 @@ D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\bin\Debug\n
 D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\obj\Debug\netcoreapp3.1\UserService.csproj.CopyComplete
 D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\bin\Debug\netcoreapp3.1\Humanizer.dll
 D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+=======
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\appsettings.json
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\UserService.exe
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\UserService.deps.json
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\UserService.runtimeconfig.json
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\UserService.runtimeconfig.dev.json
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\UserService.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\UserService.pdb
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Humanizer.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\JeanStationModels.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\JeanStationModels.pdb
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\UserService.csproj.AssemblyReference.cache
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\UserService.GeneratedMSBuildEditorConfig.editorconfig
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\UserService.AssemblyInfoInputs.cache
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\UserService.AssemblyInfo.cs
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\UserService.csproj.CoreCompileInputs.cache
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\UserService.MvcApplicationPartsAssemblyInfo.cache
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\staticwebassets\UserService.StaticWebAssets.Manifest.cache
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\staticwebassets\UserService.StaticWebAssets.xml
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\scopedcss\bundle\UserService.styles.css
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\UserService.RazorTargetAssemblyInfo.cache
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\UserService.dll
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\UserService.pdb
+E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\UserService.genruntimeconfig.cache
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\DAL.dll
+E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\DAL.pdb
+>>>>>>> c215371600b89c1a12b8eb4e11ab21f90b66fc14

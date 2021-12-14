@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+a+KX99QYAnnrLRSXdsItcxKPp8GMxXuIaeu+DgUUp5QuVi3R9nqiWRlm8Xd+wgwTU3h5/sS0H0IwSC7w8nzFg==",
+  "dgSpecHash": "IgXjH+5tJfjSNck2vaAyUQCG1AqjKahx4tuwwFIxnIPM4Hf7vyIt97xua+RnCFE3ZMYsdcKvQ6oJ6XDnGecv6g==",
   "success": true,
   "projectFilePath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\CartService\\CartService.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\royal\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.12\\microsoft.entityframeworkcore.design.5.0.12.nupkg.sha512",
     "C:\\Users\\royal\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.12\\microsoft.entityframeworkcore.relational.5.0.12.nupkg.sha512",
     "C:\\Users\\royal\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.0\\microsoft.entityframeworkcore.sqlserver.5.0.0.nupkg.sha512",
+    "C:\\Users\\royal\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.12\\microsoft.entityframeworkcore.tools.5.0.12.nupkg.sha512",
     "C:\\Users\\royal\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\royal\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\royal\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
@@ -102,5 +103,12 @@
     "C:\\Users\\royal\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\royal\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\CartService\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
