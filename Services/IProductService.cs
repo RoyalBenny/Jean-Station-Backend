@@ -8,10 +8,10 @@ namespace Services
     public interface IProductService
     {
         Product AddProduct(Product product);
-        Product UpdateProduct(string id, Product product);
-        Product DeleteProduct(string id);
+        bool UpdateProduct(string id, Product product);
+        bool DeleteProduct(string id);
 
-        Product GetAllProducts();
+        List<Product> GetAllProducts();
         Product GetProductById(string id);
     }
 }

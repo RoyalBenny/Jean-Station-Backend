@@ -1,33 +1,70 @@
-﻿using JeanStationModels;
+﻿using DAL;
+using JeanStationModels;
 using System;
+using System.Collections.Generic;
 
 namespace Services
 {
     public class ProductService : IProductService
     {
+        private readonly IProductRepository _repo;
+        public ProductService(IProductRepository repo)
+        {
+            _repo = repo;
+        }
         public Product AddProduct(Product product)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _repo.AddProduct(product);
+            }catch(Exception ex)
+            {
+                throw new Exception();
+            }
         }
 
-        public Product DeleteProduct(string id)
+        public bool DeleteProduct(string id)
         {
-            throw new NotImplementedException();
+            try
+            {
+               return _repo.DeleteProduct(id);
+            }catch (Exception ex)
+            {
+                return false;
+            }
         }
 
-        public Product GetAllProducts()
+        public List<Product> GetAllProducts()
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _repo.GetAllProducts();
+            }catch (Exception ex)
+            {
+                throw ex;
+            }
+            
         }
 
         public Product GetProductById(string id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _repo.GetProduct(id);
+            }catch(Exception e)
+            {
+                throw e;
+            }
         }
 
-        public Product UpdateProduct(string id, Product product)
+        public bool UpdateProduct(string id, Product product)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return _repo.UpdateProduct(id, product);
+            }catch(Exception ex){
+                throw ex;
+            }
         }
     }
 }
