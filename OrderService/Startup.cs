@@ -30,8 +30,13 @@ namespace OrderService
             services.AddDbContext<JeanStationDbContext>(option => {
                 option.UseSqlServer(Configuration.GetConnectionString("sqlstring"), b => b.MigrationsAssembly("UserService"));
             });
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            });
             services.AddScoped<IOrderService, OrderServices>();
             services.AddScoped<IOrderRepository, OrderRepository>();
+
             services.AddControllers();
         }
 
@@ -44,6 +49,11 @@ namespace OrderService
             }
 
             app.UseRouting();
+            app.UseCors(x => x
+               .AllowAnyMethod()
+               .AllowAnyHeader()
+               .SetIsOriginAllowed(origin => true) // allow any origin
+               .AllowCredentials()); // allow credentials
 
             app.UseAuthorization();
 

@@ -30,6 +30,10 @@ namespace OfferService
             services.AddDbContext<JeanStationDbContext>(option => {
                 option.UseSqlServer(Configuration.GetConnectionString("sqlstring"), b => b.MigrationsAssembly("UserService"));
             });
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            });
             services.AddScoped<IOfferService, OfferServices>();
             services.AddScoped<IOfferRepository, OfferRepository>();
             services.AddControllers();
@@ -44,6 +48,11 @@ namespace OfferService
             }
 
             app.UseRouting();
+            app.UseCors(x => x
+               .AllowAnyMethod()
+               .AllowAnyHeader()
+               .SetIsOriginAllowed(origin => true) // allow any origin
+               .AllowCredentials()); // allow credentials
 
             app.UseAuthorization();
 

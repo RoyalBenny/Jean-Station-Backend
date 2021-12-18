@@ -137,3 +137,7 @@ E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netc
 E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Services.dll
 E:\training\jean station project\jean-station-backend\UserService\bin\Debug\netcoreapp3.1\Services.pdb
 E:\training\jean station project\jean-station-backend\UserService\obj\Debug\netcoreapp3.1\UserService.csproj.CopyComplete
+D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\bin\Debug\netcoreapp3.1\ServiceStack.Text.dll
+D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\bin\Debug\netcoreapp3.1\Services.dll
+D:\Courses\DotNet\Project\JeanStation\JeanStationBackend\UserService\bin\Debug\netcoreapp3.1\Services.pdb

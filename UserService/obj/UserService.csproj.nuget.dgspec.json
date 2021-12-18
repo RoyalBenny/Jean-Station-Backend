@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Trainingproject\\jean-station-backend\\UserService\\UserService.csproj": {}
+    "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\UserService\\UserService.csproj": {}
   },
   "projects": {
-    "H:\\Trainingproject\\jean-station-backend\\DAL\\DAL.csproj": {
+    "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Trainingproject\\jean-station-backend\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "H:\\Trainingproject\\jean-station-backend\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Vishnu\\.nuget\\packages\\",
-        "outputPath": "H:\\Trainingproject\\jean-station-backend\\DAL\\obj\\",
+        "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
+        "outputPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vishnu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -35,8 +33,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "H:\\Trainingproject\\jean-station-backend\\JeanStationModels\\JeanStationModels.csproj": {
-                "projectPath": "H:\\Trainingproject\\jean-station-backend\\JeanStationModels\\JeanStationModels.csproj"
+              "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\JeanStationModels.csproj": {
+                "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\JeanStationModels.csproj"
               }
             }
           }
@@ -77,29 +75,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Trainingproject\\jean-station-backend\\JeanStationModels\\JeanStationModels.csproj": {
+    "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\JeanStationModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Trainingproject\\jean-station-backend\\JeanStationModels\\JeanStationModels.csproj",
+        "projectUniqueName": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\JeanStationModels.csproj",
         "projectName": "JeanStationModels",
-        "projectPath": "H:\\Trainingproject\\jean-station-backend\\JeanStationModels\\JeanStationModels.csproj",
-        "packagesPath": "C:\\Users\\Vishnu\\.nuget\\packages\\",
-        "outputPath": "H:\\Trainingproject\\jean-station-backend\\JeanStationModels\\obj\\",
+        "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\JeanStationModels.csproj",
+        "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
+        "outputPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vishnu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -160,29 +156,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Trainingproject\\jean-station-backend\\Services\\Services.csproj": {
+    "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Trainingproject\\jean-station-backend\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "H:\\Trainingproject\\jean-station-backend\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\Vishnu\\.nuget\\packages\\",
-        "outputPath": "H:\\Trainingproject\\jean-station-backend\\Services\\obj\\",
+        "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
+        "outputPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vishnu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -195,11 +189,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "H:\\Trainingproject\\jean-station-backend\\DAL\\DAL.csproj": {
-                "projectPath": "H:\\Trainingproject\\jean-station-backend\\DAL\\DAL.csproj"
+              "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\DAL\\DAL.csproj"
               },
-              "H:\\Trainingproject\\jean-station-backend\\JeanStationModels\\JeanStationModels.csproj": {
-                "projectPath": "H:\\Trainingproject\\jean-station-backend\\JeanStationModels\\JeanStationModels.csproj"
+              "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\JeanStationModels.csproj": {
+                "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\JeanStationModels.csproj"
               }
             }
           }
@@ -228,29 +222,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\Trainingproject\\jean-station-backend\\UserService\\UserService.csproj": {
+    "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\UserService\\UserService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Trainingproject\\jean-station-backend\\UserService\\UserService.csproj",
+        "projectUniqueName": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\UserService\\UserService.csproj",
         "projectName": "UserService",
-        "projectPath": "H:\\Trainingproject\\jean-station-backend\\UserService\\UserService.csproj",
-        "packagesPath": "C:\\Users\\Vishnu\\.nuget\\packages\\",
-        "outputPath": "H:\\Trainingproject\\jean-station-backend\\UserService\\obj\\",
+        "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\UserService\\UserService.csproj",
+        "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
+        "outputPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\UserService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vishnu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -263,14 +255,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "H:\\Trainingproject\\jean-station-backend\\DAL\\DAL.csproj": {
-                "projectPath": "H:\\Trainingproject\\jean-station-backend\\DAL\\DAL.csproj"
+              "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\DAL\\DAL.csproj"
               },
-              "H:\\Trainingproject\\jean-station-backend\\JeanStationModels\\JeanStationModels.csproj": {
-                "projectPath": "H:\\Trainingproject\\jean-station-backend\\JeanStationModels\\JeanStationModels.csproj"
+              "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\JeanStationModels.csproj": {
+                "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\JeanStationModels.csproj"
               },
-              "H:\\Trainingproject\\jean-station-backend\\Services\\Services.csproj": {
-                "projectPath": "H:\\Trainingproject\\jean-station-backend\\Services\\Services.csproj"
+              "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\Services\\Services.csproj": {
+                "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\Services\\Services.csproj"
               }
             }
           }
@@ -328,7 +320,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -19,6 +19,7 @@ namespace JeanStationModels
         public Size size { get; set; }
         public Color color { get; set; }
         public Status status { get; set; }
+        public string ImageUrl { get; set; }
 
     }
 

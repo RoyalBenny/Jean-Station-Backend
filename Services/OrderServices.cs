@@ -17,6 +17,7 @@ namespace Services
         {
             try
             {
+                order.Id = null;
                 order.Date = DateTime.Now;
                 return _repo.AddOrder(order);
             }catch (Exception ex)

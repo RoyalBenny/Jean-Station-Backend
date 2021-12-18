@@ -43,6 +43,7 @@ namespace DAL
             product.ImageUrl = p.ImageUrl;
             product.section = p.section;
             product.category = p.category;
+            product.Quantity = p.Quantity;
             _context.Entry(product).State = EntityState.Modified;
             _context.SaveChanges();
             return true;

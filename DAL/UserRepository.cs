@@ -23,7 +23,7 @@ namespace DAL
 
         public User GetUser(string id)
         {
-            return _context.Users.FirstOrDefault(x => x.Id == id);
+            return _context.Users.FirstOrDefault(x => x.Email == id);
         }
     }
 }

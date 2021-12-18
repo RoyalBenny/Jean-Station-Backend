@@ -61,6 +61,7 @@ namespace UserService.Controllers
                 var token = GenerateToken(value);
                 return token.ToString();
             }
+            return null;
         }
 
         // PUT api/<UserController>/5

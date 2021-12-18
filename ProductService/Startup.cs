@@ -30,6 +30,11 @@ namespace ProductService
             services.AddDbContext<JeanStationDbContext>(option => {
                 option.UseSqlServer(Configuration.GetConnectionString("sqlstring"), b => b.MigrationsAssembly("UserService"));
             });
+            services.AddCors(c =>
+            {
+                c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            });
+
             services.AddScoped<IProductService, ProductServices>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddControllers();
@@ -44,6 +49,11 @@ namespace ProductService
             }
 
             app.UseRouting();
+            app.UseCors(x => x
+               .AllowAnyMethod()
+               .AllowAnyHeader()
+               .SetIsOriginAllowed(origin => true) // allow any origin
+               .AllowCredentials()); // allow credentials
 
             app.UseAuthorization();
 
