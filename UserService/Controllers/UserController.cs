@@ -39,19 +39,37 @@ namespace UserService.Controllers
         //    _config = config;
         //}
         // GET: api/<UserController>
-        [HttpGet]
-        public IEnumerable<User> Get()
+        [HttpGet("{email}")]
+        public bool Get(string email)
         {
-            return Users;
-        }
+            if (_userService.GetUser(email) != null)
+            {
+                return true;
+            }
+            return false;
 
+        }
+        
+        [HttpPost]
+        public User Check([FromBody] User user)
+        {
+            return _userService.CheckUser(user);
+        }
         
         // POST api/<UserController>
         [HttpPost("Register")]
-        public void Post([FromBody] User value)
+        public User Post([FromBody] User user)
         {
-            Users.Add(value);
+            //Users.Add(value);
+            try
+            {
+                user.Id = null;
+                return _userService.CreateUser(user); ;
 
+            }catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
         }
         [HttpPost("Validate")]
         public string Validate([FromBody] User value)

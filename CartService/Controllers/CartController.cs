@@ -55,12 +55,13 @@ namespace CartService.Controllers
             
                 try
                 {
+                    cart.Id = null;
                     Cart obj =_cartService.AddCart(cart);
                     return Created("", obj);
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception(ex.Message);
+                return BadRequest(ex.Message);
                 }
            
         }

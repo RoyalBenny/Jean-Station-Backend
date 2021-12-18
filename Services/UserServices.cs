@@ -14,6 +14,17 @@ namespace Services
             _repo = repo;
         }
 
+        public User CheckUser(User user)
+        {
+            try
+            {
+                return _repo.CheckUser(user);
+            }catch (Exception ex)
+            {
+                return new User();
+            }
+        }
+
         public User CreateUser(User user)
         {
             try

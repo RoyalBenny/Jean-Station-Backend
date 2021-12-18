@@ -9,5 +9,7 @@ namespace Services
     {
         User CreateUser(User user);
         User GetUser(string id);
+
+        User CheckUser(User user);
     }
 }

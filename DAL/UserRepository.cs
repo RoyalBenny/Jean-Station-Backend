@@ -25,5 +25,10 @@ namespace DAL
         {
             return _context.Users.FirstOrDefault(x => x.Email == id);
         }
+
+        public User CheckUser(User user)
+        {
+            return _context.Users.FirstOrDefault(x=> x.Email == user.Email && x.Password == user.Password);
+        }
     }
 }
