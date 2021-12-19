@@ -34,17 +34,17 @@ namespace OrderService.Controllers
         }
 
         // GET api/<OrderController>/5
-        [HttpGet("{id}")]
+        [HttpPost("userorder")]
        
-        public List<Order> GetOrdersByUserId(string userId)
+        public IActionResult GetOrdersByUserId([FromBody] User user)
         {
             try
             {
-                return _orderService.GetOrdersByUserId(userId);
+                return Ok(_orderService.GetOrdersByUserId(user.Id));
             }
             catch (Exception ex)
             {
-                throw ex;
+                return BadRequest(ex.Message);
             }
         }
 

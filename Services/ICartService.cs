@@ -10,6 +10,6 @@ namespace Services
         Cart AddCart(Cart cart);
         bool DeleteCart(string id);
         List<Cart> GetAllCarts();
-        Cart GetCartByUserId(string userid);
+        public List<Cart> GetCartByUserId(string userid);
     }
 }

@@ -25,9 +25,9 @@ namespace DAL
         {
             return _context.Carts.ToList();
         }
-        public Cart GetCartByUserId(string userid)
+        public List<Cart> GetCartByUserId(string userid)
         {
-            return _context.Carts.FirstOrDefault(x => x.UserId == userid);
+            return _context.Carts.Where(x => x.UserId == userid).ToList();
         }
         public bool DeleteCart(string id)
         {

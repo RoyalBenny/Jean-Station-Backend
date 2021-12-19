@@ -34,16 +34,16 @@ namespace CartService.Controllers
         }
 
         // GET api/<CartController>/5
-        [HttpGet("{id}")]
-        public Cart Get(string userid)
+        [HttpPost("usercart")]
+        public IActionResult Post([FromBody] User user)
         {
             try
             {
-                return _cartService.GetCartByUserId(userid);
+                return Ok(_cartService.GetCartByUserId(user.Id));
             }
             catch (Exception ex)
             {
-                throw new Exception(ex.Message);
+                return BadRequest(ex.Message);
             }
 
         }
