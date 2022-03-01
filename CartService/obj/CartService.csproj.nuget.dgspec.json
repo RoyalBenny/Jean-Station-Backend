@@ -10,15 +10,14 @@
         "projectUniqueName": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\CartService\\CartService.csproj",
         "projectName": "CartService",
         "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\CartService\\CartService.csproj",
-        "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Royal Benny\\.nuget\\packages\\",
         "outputPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\CartService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Royal Benny\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -95,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -105,15 +104,14 @@
         "projectUniqueName": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\DAL\\DAL.csproj",
         "projectName": "DAL",
         "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Royal Benny\\.nuget\\packages\\",
         "outputPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Royal Benny\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -170,7 +168,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -180,15 +178,14 @@
         "projectUniqueName": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\JeanStationModels.csproj",
         "projectName": "JeanStationModels",
         "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\JeanStationModels.csproj",
-        "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Royal Benny\\.nuget\\packages\\",
         "outputPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\JeanStationModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Royal Benny\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -251,7 +248,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -261,15 +258,14 @@
         "projectUniqueName": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\Services\\Services.csproj",
         "projectName": "Services",
         "projectPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\Services\\Services.csproj",
-        "packagesPath": "C:\\Users\\royal\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Royal Benny\\.nuget\\packages\\",
         "outputPath": "D:\\Courses\\DotNet\\Project\\JeanStation\\JeanStationBackend\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\royal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Royal Benny\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -317,7 +313,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -15,6 +15,8 @@ namespace Services
         }
         public Order AddOrder(Order order)
         {
+
+            //SqlConnection conn = new SqlConnection("Server=localhost;Database=JeanStation;Trusted_Connection=True;");
             try
             {
                 order.Id = null;
