@@ -21,5 +21,7 @@ RUN dotnet publish "UserService.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "UserService.dll"]
+# ENTRYPOINT ["dotnet", "UserService.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet UserService.dll
+
 
