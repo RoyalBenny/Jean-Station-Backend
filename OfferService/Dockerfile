@@ -21,4 +21,6 @@ RUN dotnet publish "OfferService.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "OfferService.dll"]
+# ENTRYPOINT ["dotnet", "OfferService.dll"]
+CMD ASPNETCORE_URLS=http://*:$PORT dotnet OfferService.dll
+
